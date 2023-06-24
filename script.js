@@ -5,17 +5,17 @@ function carregar(){
     var hora = data.getHours();
     msg.innerHTML = `Agora são ${hora} horas.`;
     if(hora >= 0 && hora < 12){
-        img.src = "manha.jpg";
+        img.src = "./img/manha.jpg";
         document.body.style.backgroundColor = "#e2cd9f"
 
     }
     else if(hora >= 12 && hora <= 18){
-        img.src = "tarde.jpg";
+        img.src = "./img/tarde.jpg";
         document.body.style.backgroundColor = "#b9846f"
 
     }   
     else{
-        img.src = "noite.jpg";
+        img.src = "./img/noite.jpg";
         document.body.style.backgroundColor = "#515154"
     }
 }
@@ -38,22 +38,22 @@ function calcular(){
             genero = "Homem";
             if(idade >= 0 && idade < 10){
                 //criança
-                img.setAttribute("src", "criançaH.jpg");
+                img.setAttribute("src", "./img/criançaH.jpg");
 
             }
             else if(idade < 21){
                 //Jovem
-                img.setAttribute("src", "jovemH.jpg");
+                img.setAttribute("src", "./img/jovemH.jpg");
 
             }
             else if(idade > 50){
                 //Adulto
-                img.setAttribute("src", "adultoH.jpg");
+                img.setAttribute("src", "./img/adultoH.jpg");
 
             }
             else {
                 //Idoso
-                img.setAttribute("src", "idosoH.jpg");
+                img.setAttribute("src", "./img/idosoH.jpg");
 
             }
         }
@@ -61,22 +61,22 @@ function calcular(){
             genero = "Mulher";
             if(idade >= 0 && idade < 10){
                 //criança
-                img.setAttribute("src", "criançaM.jpg");
+                img.setAttribute("src", "./img/criançaM.jpg");
 
             }
             else if(idade < 21){
                 //Jovem
-                img.setAttribute("src", "JovemM.jpg");
+                img.setAttribute("src", "./img/JovemM.jpg");
 
             }
             else if(idade > 50){
                 //Adulto
-                img.setAttribute("src", "adultaM.jpg");
+                img.setAttribute("src", "./img/adultaM.jpg");
 
             }
             else {
                 //Idoso
-                img.setAttribute("src", "idosoM.jpg");
+                img.setAttribute("src", "./img/idosoM.jpg");
 
             }
         }
