@@ -46,7 +46,7 @@ function calcular(){
                 img.setAttribute("src", "./img/jovemH.jpg");
 
             }
-            else if(idade > 50){
+            else if(idade < 50){
                 //Adulto
                 img.setAttribute("src", "./img/adultoH.jpg");
 
@@ -69,7 +69,7 @@ function calcular(){
                 img.setAttribute("src", "./img/JovemM.jpg");
 
             }
-            else if(idade > 50){
+            else if(idade < 50){
                 //Adulto
                 img.setAttribute("src", "./img/adultaM.jpg");
 
